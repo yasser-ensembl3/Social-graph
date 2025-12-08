@@ -20,3 +20,8 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Data (don't commit scraped data)
+data/output/*.md
+data/cache/*.json
+data/input/*.json
